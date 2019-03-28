@@ -1,0 +1,39 @@
+{
+  "name": "registrobrupdater",
+  "version": "2.0.1",
+  "preferGlobal": true,
+  "description": "Updates brazilian registrar DNS records with user's dynamic IP",
+  "main": "entry.js",
+  "bin": {
+    "registrobrupdater": "./bin/registrobrupdater.js"
+  },
+  "scripts": {
+    "start": "node entry",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "brazilian",
+    "registrar",
+    "registro",
+    "br",
+    "update",
+    "atualizar",
+    "dns",
+    "dynamic",
+    "dydns",
+    "no-ip",
+    "record",
+    "domain",
+    "dominio"
+  ],
+  "author": "Evandro Araújo",
+  "license": "MIT",
+  "dependencies": {
+    "@std/esm": "^0.26.0",
+    "chalk": "^2.4.2",
+    "inquirer": "^6.2.2",
+    "moment": "^2.24.0",
+    "public-ip": "^3.0.0",
+    "puppeteer": "^1.13.0"
+  }
+}
