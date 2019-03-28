@@ -35,5 +35,14 @@
     "moment": "^2.24.0",
     "public-ip": "^3.0.0",
     "puppeteer": "^1.13.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evsar3/registrobrupdater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evsar3/registrobrupdater/issues"
+  },
+  "homepage": "https://github.com/evsar3/registrobrupdater#readme"
 }
