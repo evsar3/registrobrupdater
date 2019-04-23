@@ -1,7 +1,7 @@
 'use strict';
 
-require = require('@std/esm')(module, {
+require = require('esm')(module, {
   cjs: true
 });
 
-module.exports = require('./index').default;
+module.exports = require('./index');
