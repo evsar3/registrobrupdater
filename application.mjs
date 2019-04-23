@@ -16,7 +16,7 @@ class Application {
     log.println(chalk.green.bold('+-----------------------------------+'));
     log.println(chalk.green.bold('|      Registro.br DNS Updater      |'));
     log.println(chalk.green.bold('+-----------------------------------+'));
-    log.println(chalk.green.bold(' by evsar3                    v' + process.env.npm_package_version + '\n'));
+    log.println(chalk.green.bold(' by evsar3                      v1.1\n'));
 
     log.print('Acquiring your public IP...');
 
@@ -186,7 +186,7 @@ class Application {
 
   list() {
     configs.accounts.forEach(account => {
-      log.lnprint(aount.userName);
+      log.lnprint(account.userName);
 
       account.domains.forEach(domain => {
         domain.records.forEach(record => {
