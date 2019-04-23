@@ -11,14 +11,14 @@ Enter the informations asked or leave any input blank to cancel.
 
 > Note: For now, your username and password are stored in a JSON file as plain text. If there is any concern about your credentials security, dont use this package.
 
-### Add an domain record to be dynamically updated
+### Add a domain record to be dynamically updated
 `$ registrobrupdater add-domain`
 
 Enter the [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name) of the domain. Eg. my.domain.com  
 Select the account that owns the domain.
 
 > You should first create the DNS record on Registro.br's DNS editor tool  
-> [Follow this steps to achive it](#Create-DNS-record-on-Registro.br)
+> [Follow this steps to achive it](#create-dns-record-on-registrobr)
 
 ### Remove an account
 `$ registrobrupdater remove-account`
@@ -29,6 +29,11 @@ Select the account you want to delete and press enter.
 `$ registrobrupdater remove-domain`
 
 Select the domain name you want to delete and press enter.
+
+### List accounts and domains
+`$ registrobrupdater list`
+
+List accounts and domains in your config file.
 
 ## Usage
 `$ registrobrupdater`
