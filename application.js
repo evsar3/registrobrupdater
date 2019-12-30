@@ -16,7 +16,7 @@ class Application {
     log.println(chalk.green.bold('+-----------------------------------+'));
     log.println(chalk.green.bold('|      Registro.br DNS Updater      |'));
     log.println(chalk.green.bold('+-----------------------------------+'));
-    log.println(chalk.green.bold(' by evsar3                     v2.0.2\n'));
+    log.println(chalk.green.bold(' by evsar3                     v2.0.3\n'));
 
     log.print('Acquiring your public IP...');
 
