@@ -9,7 +9,7 @@ const definitions = {
 
   pageTitles: {
     loginPage:         'Acessar conta - Registro.br',
-    mainPage:          'Painel',
+    mainPage:          'Domínios - Painel Registro.br',
     domainDetailsPage: 'Registro.br',
     dnsEditorPage:     'FreeDNS'
   },
@@ -22,7 +22,7 @@ const definitions = {
     },
 
     mainPage: {
-      domainDetailsButton: 'a.fqdn[href$="{domain}"]'
+      domainDetailsButton: 'a.link[href$="{domain}"]'
     },
 
     domainDetailsPage: {
@@ -87,9 +87,6 @@ function Updater(account, ip, options = {}) {
 
                   });
 
-                  break;
-
-                case definitions.pageTitles.mainPage:
                   let domainDetailsButton =
                     definitions.pageElements.mainPage.domainDetailsButton
                       .replace('{domain}', domain.name);
