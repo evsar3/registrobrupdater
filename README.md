@@ -1,3 +1,9 @@
+# [DISCONTINUED]
+
+Registro.br implemented human-test verification at login and broke this application. 😥
+
+<hr>
+
 # Registro.br DNS Updater
 Registro.br Updater helps you to update DNS records on brazilian registrar's DNS servers. This tool works like **No-IP** or **DynDNS** services, updating previous configured DNS records to your dynamic IP.
 
